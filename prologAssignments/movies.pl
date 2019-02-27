@@ -3,19 +3,6 @@
         director/2,
         actor/3,
         actress/3.
-
-% same_year(M1, M2) <- whether two movies (M1, M2) were released in the same year.
-
-% released_between(Y1, Y2, M) <- the movie was released after year Y1 but before Y2 (inclusive).
-
-% roles(A, R) <- person A has performed as role R. Hint: recall a person can be an actor or actress
-
-% worked_on(A,M) <- person A was an actor, actress, or director in movie M
-
-% co_star(A1, A2) <- the actor/actress are in the same movie. Hint: A1 and A2 should not be equal
-
-% directed_by(X,Y) <- person X has been in a movie directed by Y. Hint: you can re-use your worked_on predicate
-
 movie(american_beauty, 1999).
 director(american_beauty, sam_mendes).
 actor(american_beauty, kevin_spacey, lester_burnham).
